@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/Xabilla-II/static/js/main.22ec6545.js",
+    "main.js": "/Xabilla-II/static/js/main.6f2550ec.js",
     "static/media/xabillabg.jpg": "/Xabilla-II/static/media/xabillabg.2a791e9756644c0f8eba.jpg",
     "index.html": "/Xabilla-II/index.html",
-    "main.22ec6545.js.map": "/Xabilla-II/static/js/main.22ec6545.js.map"
+    "main.6f2550ec.js.map": "/Xabilla-II/static/js/main.6f2550ec.js.map"
   },
   "entrypoints": [
-    "static/js/main.22ec6545.js"
+    "static/js/main.6f2550ec.js"
   ]
 }
