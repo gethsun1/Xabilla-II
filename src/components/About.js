@@ -1,6 +1,6 @@
-// components/About.js
 import React from 'react';
 import styled from 'styled-components';
+import Fade from 'react-reveal/Fade';
 
 const AboutContainer = styled.div`
   padding: 50px 20px;
@@ -23,13 +23,15 @@ const AboutContainer = styled.div`
 `;
 
 const About = () => (
-  <AboutContainer>
-    <h2>About Xabila.io</h2>
-    <p>
-      In the heart of Africa's digital revolution, Xabila.io bridges Web 3.0 brands with top African creators. 
-      With our decentralized platform, we're shaping the future of blockchain innovation by connecting communities and empowering creators.
-    </p>
-  </AboutContainer>
+  <Fade bottom>
+    <AboutContainer>
+      <h2>About Xabila.io</h2>
+      <p>
+        In the heart of Africa's digital revolution, Xabila.io bridges Web 3.0 brands with top African creators.
+        With our decentralized platform, we're shaping the future of blockchain innovation by connecting communities and empowering creators.
+      </p>
+    </AboutContainer>
+  </Fade>
 );
 
 export default About;

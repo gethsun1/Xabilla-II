@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import logo from '../assets/xabilalogo1.png';
 import bgImage from '../assets/xabillabg.jpg';
 
+
 const HeroContainer = styled.div`
   position: relative;
   display: flex;
@@ -16,12 +17,13 @@ const HeroContainer = styled.div`
   background-repeat: no-repeat;
   color: white;
   text-align: center;
+  padding: 20px;
 
   .logo {
     position: absolute;
     top: 20px;
     left: 20px;
-    width: 100px;
+    width: 80px;
     cursor: pointer;
   }
 
@@ -36,9 +38,14 @@ const HeroContainer = styled.div`
     transition: background-color 0.3s ease;
   }
 
-  .cta:hover {
-    background-color: #ad49e1;
-    color: white;
+  @media (max-width: 768px) {
+    .cta {
+      padding: 10px 20px;
+    }
+
+    .logo {
+      width: 60px;
+    }
   }
 `;
 
