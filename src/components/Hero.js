@@ -79,8 +79,7 @@ const Hero = () => (
         startDelay={200}
         cursorColor="#ECB61E"
         multiText={[
-          "Welcome to ",
-          "XaBIla",
+          "Welcome to "
         ]}
         multiTextDelay={800}
         typeSpeed={100}
