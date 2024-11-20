@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.js": "/Xabilla-II/static/js/main.6f2550ec.js",
+    "main.js": "/Xabilla-II/static/js/main.4dc96b3e.js",
     "static/media/xabillabg.jpg": "/Xabilla-II/static/media/xabillabg.2a791e9756644c0f8eba.jpg",
+    "static/media/team2.png": "/Xabilla-II/static/media/team2.36afebc2beff7f0c0f51.png",
+    "static/media/team1.png": "/Xabilla-II/static/media/team1.c789d3b0f8e9eaaf6dbe.png",
     "index.html": "/Xabilla-II/index.html",
-    "main.6f2550ec.js.map": "/Xabilla-II/static/js/main.6f2550ec.js.map"
+    "main.4dc96b3e.js.map": "/Xabilla-II/static/js/main.4dc96b3e.js.map"
   },
   "entrypoints": [
-    "static/js/main.6f2550ec.js"
+    "static/js/main.4dc96b3e.js"
   ]
 }
